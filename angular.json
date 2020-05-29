@@ -2,6 +2,14 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "newProjectRoot": "projects",
+  "deploy":{
+    "builder": "@netlify-builder/deploy:deploy",
+    "options":{
+      "outputPath": "dist/anglify:,
+      "netlifyToken":"6bf043242ebf82d9e252dc6204ea7dcce70fa0dc6ebc94d9f713ecabb98f91f7",
+      "siteId":"416b7d9e-e7b5-4eae-8c89-aae5cda40c1c"
+    }
+  },
   "projects": {
     "angular.io-example": {
       "projectType": "application",
