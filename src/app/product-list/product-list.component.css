@@ -1,0 +1,14 @@
+#product-list-wrapper{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+}
+#product-list-wrapper>div{
+  background-color:rgb(243, 243, 243);
+  padding:10px;
+}
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/
